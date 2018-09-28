@@ -1,0 +1,16 @@
+\documentclass[12pt]{article}
+\usepackage [utf8] {inputenc}
+\usepackage [russian] {babel}
+\renewcommand{\baselinestretch}{2,5}
+\usepackage {amsmath}
+\begin{document}
+	Перевод из десятичной системы в двоичную. \\
+\noindent $\lfloor \displaystyle \frac{75}{2} \rfloor = 37, \; \; 75\pmod {2} = 1$ \\
+$\lfloor \displaystyle \frac{37}{2} \rfloor = 18, \; \; 37\pmod {2} = 1$ \\
+$\lfloor \displaystyle \frac{18}{2} \rfloor = 9, \; \; \; 18\pmod {2} = 0$ \\
+$\lfloor \displaystyle \frac{9}{2} \rfloor = 4, \; \;\;\;\;\; 9\pmod {2} = 1$ \\
+$\lfloor \displaystyle \frac{4}{2} \rfloor = 2, \; \;\;\;\;\; 4\pmod {2} = 0$ \\
+$\lfloor \displaystyle \frac{2}{2} \rfloor = 1, \; \;\;\;\;\; 2\pmod {2} = 0$ \\
+    Перевод из двоичной системы в десятичную: \\
+    $ 1001011_2 = 1\cdot2^6+0\cdot2^5+0\cdot2^4+1\cdot2^3+0\cdot2^2+1\cdot2^1+1\cdot2^0=75_{10} $
+\end{document}
